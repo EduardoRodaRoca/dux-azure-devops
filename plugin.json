@@ -1,0 +1,20 @@
+{
+  "id": "azureDevOps",
+  "name": "Azure DevOps",
+  "description": "Pull requests awaiting your review, your own PRs, and assigned work items in DankBar — vote, comment, change state.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Eduardo Roda",
+  "icon": "merge",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "requires_dms": ">=2.0.0",
+  "component": "./AzureDevOps.qml",
+  "settings": "./AzureDevOpsSettings.qml",
+  "permissions": [
+    "network",
+    "process",
+    "settings_read",
+    "settings_write"
+  ]
+}
